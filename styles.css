@@ -13,16 +13,14 @@ a {
   border: 0;
 }
 
-body {
-  padding: 20px;
-}
-
 h1 {
   margin: 10px 0 15px 0;
+  text-align: center;
 }
 
 h2 {
   margin: 10px 0 20px 0;
+  text-align: center;
 }
 
 h3 {
@@ -34,6 +32,10 @@ h3 {
 ul,
 ol {
   padding-left: 50px;
+}
+
+nav {
+  text-align: center;
 }
 
 nav ul {
@@ -66,4 +68,21 @@ nav li {
 .recipes a {
   color: #7facaa;
   text-decoration: none;
+}
+
+header {
+  padding: 10px;
+  background-color: #b56663;
+}
+
+header a,
+h1 {
+  color: #fff;
+}
+
+main {
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin: 30px auto 0 auto;
 }
