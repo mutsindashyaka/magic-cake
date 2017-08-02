@@ -48,3 +48,19 @@ nav a {
 nav li {
   display: inline;
 }
+.recipes {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipes li {
+  border: 1px solid #b56663;
+}
+
+.recipes h3 {
+  border-bottom: 0;
+}
+.recipes a {
+  color: #7facaa;
+  text-decoration: none;
+}
