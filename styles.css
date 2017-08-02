@@ -12,11 +12,9 @@ a {
   margin: 0;
   border: 0;
 }
-
 body {
-  padding: 20px;
+  padding: 0;
 }
-
 h1 {
   margin: 10px 0 15px 0;
 }
@@ -60,7 +58,29 @@ nav li {
 .recipes h3 {
   border-bottom: 0;
 }
-.recipes a {
+.recipes {
   color: #7facaa;
   text-decoration: none;
+}
+
+header {
+  padding: 10px;
+  background-color: #b56663;
+}
+
+header a,
+header h1 {
+  color: #fff;
+}
+
+header h1,
+header nav {
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin: 30px auto 0 auto;
+  width: 500px;
 }
